@@ -1,1 +1,37 @@
 /* Acá va tu código */
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+    font-size: 500%;
+}
+
+body {
+  background-image: url(https://wallpaperhdzone.com/wp-content/uploads/2016/06/galaxy-wallpaper-hd9.jpg)
+}
+
+.caja {
+    height: 100px;
+    width: 45%;
+    border: 2px solid rgba(255, 255, 255, 0.699);
+    margin: 5px;
+    text-align: center;
+}
+
+.caja2 {
+    height: 100px;
+    width: 45%;
+    margin: 5px;
+    display: inline-block;
+    align-content: center;
+}
+
+.btn {
+    display: inline-block;
+    align-content: center;
+}
+
+main {
+    text-align: center;
+    color: antiquewhite;
+}
