@@ -7,19 +7,12 @@ h1 {
 }
 
 body {
-  background-image: url(img/stars-3840x2160-galaxy-4k-6362.jpg)
+    text-align: center;
+    background-image: url(img/stars-3840x2160-galaxy-4k-6362.jpg)
 }
 
 .caja {
-    height: 100px;
-    width: 45%;
-    border: 2px solid rgba(255, 255, 255, 0.699);
-    margin: 5px;
-    text-align: center;
-}
-
-.caja2 {
-    height: 100px;
+    height: 50px;
     width: 45%;
     margin: 5px;
     display: inline-block;
@@ -34,4 +27,9 @@ body {
 main {
     text-align: center;
     color: antiquewhite;
+}
+
+.buttons {
+    align-content: center;
+    display: inline;
 }
