@@ -1,8 +1,25 @@
 window.cipher = {
-  encode: (offset, string) => {
-    /* Acá va tu código */
+  /* Acá va tu código */
+  encode: (txt_uno, espacios_cif) => {
+    let esto = "";
+    for (let i = 0; i< txt_uno.length; i++){
+    let x = txt_uno.charCodeAt(i);
+    let formula = ((x - 65 + parseInt(espacios_cif)) % 26 + 65);
+    esto += String.fromCharCode(formula);
+    console.log(esto);
+    } 
+    return esto;
+
   },
-  decode: () => {
-    /* Acá va tu código */
+  /* Acá va tu código */
+  decode: (txt_dos, espacios_des) => {
+    let esti = "";
+    for (let i = 0; i< txt_dos.length; i++){
+      let y = txt_dos.charCodeAt(i);
+      let equacion = ((y + 65 - parseInt(espacios_des)) % 26 + 65);
+      esti += String.fromCharCode(equacion);
+      console.log(esti);
+    }
+    return esti;
   }
 }
