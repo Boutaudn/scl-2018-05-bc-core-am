@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="icon" href="img/favicon.ico" />
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<!-- Aquí va mi título -->
-<header>
-  <h1>CIFRADO CESAR</h1>
-</header>
-
-  <div id="root"></div>
-
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
-<!-- Aquí es donde ocurre la magia (?) -->
-<main>
-  <section>
-    <div class="caja">
-    <textarea rows="20" cols="30" placeholder="Ingresa texto a cifrar"></textarea>
-    </div>
-    <button class="btn">Magia</button>
-    <div class="caja">
-    <textarea rows="20" cols="30" placeholder="Aquí aparecerá tu texto cifrado"></textarea>
-    </div>
-  </section>
-  <section>
-    <div class="caja">
-      <textarea rows="20" cols="30" placeholder="Ingresa texto a descifrar"></textarea>
-    </div>
-    <div class="buttons">
-    <button class="btn">Magia</button>
-    </div>
-    <div class="caja">
-    <textarea rows="20" cols="30" placeholder="Aquí aparecerá tu texto descifrado"></textarea>
-    </div>
-  </section>
-</main>
-</body>
+  <head>
+    <link rel="icon" href="img/favicon.ico" />
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <!-- Aquí va mi título -->
+    <header>
+      <h1>CIFRADO CESAR</h1>
+    </header>
+    <div id="root"></div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  <!-- Aquí es donde ocurre la magia (?) -->
+    <main>
+      <section>
+        <div class="caja" id="texto_uno">
+          <textarea id="txt_uno" rows="20" cols="30" placeholder="Ingresa texto a cifrar"></textarea>
+        </div>
+        <div class="inputBtn">
+          <input id="espacios_des" type="number" min=1>
+        <button class="btn" id="button_uno">Magia</button>
+        </div> 
+        <div class="caja" id="texto_dos">
+          <p id="txt_descifrado"></p>
+        </div>
+      </section>
+      <section>
+      <div class="caja">
+        <textarea id="txt_dos" rows="20" cols="30" placeholder="Ingresa texto a descifrar"></textarea>
+      </div>
+      <div class="inputBtn">
+        <input id="espacios_cif" type="number" min=1>
+        <button class="btn" id="button_dos">Magia</button>
+      </div>
+      <div class="caja">
+          <p id="txt_cifrado"></p>
+      </div>
+      </section>
+    </main>
+  </body>
 </html>
