@@ -1,0 +1,68 @@
+/* Acá va tu código */
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 5em;
+    border-style: ridge;
+    border-color: #142F54;
+}
+
+h4 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+body {
+    background-image: url(img/stars-3840x2160-galaxy-4k-6362.jpg);
+    background-color: #042037;
+}
+
+.caja {
+    height: 50px;
+    width: 45%;
+    margin: 5px;
+    display: block;
+    font-size: 2em;
+}
+
+.btn {
+    padding: 1%;
+    border-radius: 7px;
+    font-size: 15px;
+    margin: 2% 2% 6% 2%;
+    background-color: antiquewhite;
+    display: inline-block;
+
+}
+.btn:focus{
+    background-color: #142F54;
+    color: white;
+  }
+
+main {
+    text-align: center;
+    color: antiquewhite;
+}
+
+p {
+    border-style: dotted;
+    padding: 4%;
+    display: block;
+    font-size: 25px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 20%;
+    display: inline-block;
+}
+
+#parrafo {
+    display: inline;
+}
+
+#cifrado {
+    text-align: center;
+}
