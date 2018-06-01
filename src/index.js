@@ -13,7 +13,7 @@ button_uno.addEventListener('click', () => {
     console.log(espacios_cif);
     let cifrado = window.cipher.encode(txt_uno, espacios_cif);
     console.log(cifrado);
-    txt_cifrado.innerHTML = "Tu resultado es:" + cifrado;
+    txt_cifrado.innerHTML = "Tu mensaje codificado: " + cifrado;
 }); 
 
 // dom descifrado
@@ -24,6 +24,6 @@ button_dos.addEventListener('click', () => {
     console.log(espacios_des);
     let descifrado = window.cipher.decode(txt_dos, espacios_des);
     console.log(descifrado);
-    txt_descifrado.innerHTML = "Tu resultado es:" + descifrado; 
+    txt_descifrado.innerHTML = "Tu mensaje decodificado:" + descifrado; 
 }); 
 }

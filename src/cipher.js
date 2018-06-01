@@ -4,7 +4,8 @@ window.cipher = {
     let esto = "";
     for (let i = 0; i< txt_uno.length; i++){
     let x = txt_uno.charCodeAt(i);
-    let formula = ((x - 65 + parseInt(espacios_cif)) % 26 + 65);
+    let n = parseInt(espacios_cif);
+    let formula = ((x - 65 + n) % 26 + 65);
     esto += String.fromCharCode(formula);
     console.log(esto);
     } 
@@ -16,7 +17,8 @@ window.cipher = {
     let esti = "";
     for (let i = 0; i< txt_dos.length; i++){
       let y = txt_dos.charCodeAt(i);
-      let equacion = ((y + 65 - parseInt(espacios_des)) % 26 + 65);
+      let m = parseInt(espacios_des);
+      let equacion = ((y + 65 - m) % 26 + 65);
       esti += String.fromCharCode(equacion);
       console.log(esti);
     }
