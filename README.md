@@ -1,5 +1,6 @@
 # Cifrado César
 
+
 ## Introducción
 
 El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los
@@ -24,29 +25,35 @@ pero el cifrado César muchas veces puede formar parte de sistemas más complejo
 de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el
 sistema ROT13.
 
-## Descargar e instalar
-
-Para usar esta maravillosa plataforma no necesitas ser un experto, sólo seguir las siguientes instrucciones:
-
-### Paso uno:
-Entra al siguiente [link de mi github](https://github.com/Boutaud/scl-2018-05-bc-core-am) 
-
-### Paso dos:
-Vas a la izquierda de la página al boton verde llamado **clone or download** para descargar el proyecto (o puedes hacerlo directamente usando este link [CLONE OR DOWNLOAD](https://github.com/Boutaudn/scl-2018-05-bc-core-am/archive/master.zip) ) 
-
-### Paso tres:
-Ya con el proyecto en tu computador, entras a la carpeta **scl-2018-05-bc-core-am**, luego a **src**, abres el archivo **index.html** con tu navegador favorito y listo, ya tienes la pagina de cifrado cesar.
-
 
 ## Cómo usar
 
 Usar esta página es muy fácil, solo ingresas la palabra que quieras cifrar en la primera caja texto (la que contiene la leyenda "Ingresa palabra a cifrar"), seleccionas cuántas posiciones (o espacios) quieres adelantarte en el alfabeto, presionas el botón **cifrar** y en el parrafo de abajo aparecerá tu palabra cifrada.
 
-Para descifrar tienes que ingresar tu texto previamente cifrado en la segunda caja de texto de la pagina (la que contiene la leyenda "Ingresa palabra a descifrar), seleccionas cuántas posiciones (o espacios) quieres ir hacia atrás en el alfabeto (debería ser la misma cantidad que usaste al cifrarlo), presionas el botón **descifrar** y en el parrafo de abajo aparecerá tu palabra descifrada.
+Para descifrar tienes que ingresar tu texto previamente cifrado en la segunda caja de texto de la pagina (la que contiene la leyenda "Ingresa palabra a descifrar), seleccionas cuántas posiciones (o espacios) quieres ir hacia atrás en el alfabeto (debería ser la misma cantidad que usaste al cifrarlo), presionas el botón **descifrar** y en el párrafo de abajo aparecerá tu palabra descifrada.
+
+
+## Descargar e instalar
+
+Descargar la aplicación y tenerla en tu propio computador te puede servir para modificarla a tu gusto o para usarla aún cuando te encuentres sin internet. 
+Para hacer esto no necesitas ser un experto, sólo seguir las siguientes instrucciones:
+
+### Paso uno:
+Entra al siguiente [link de mi github](https://github.com/Boutaudn/scl-2018-05-bc-core-am) 
+
+### Paso dos:
+Vas a la izquierda de la página al botón verde llamado **clone or download** para descargar el proyecto (o puedes hacerlo directamente usando este link [CLONE OR DOWNLOAD](https://github.com/Boutaudn/scl-2018-05-bc-core-am/archive/master.zip) ) 
+
+### Paso tres:
+Ya con el proyecto en tu computador, entras a la carpeta **scl-2018-05-bc-core-am**, luego a **src**, abres el archivo **index.html** con tu navegador favorito y listo, ya tienes la pagina de cifrado cesar.
+
+### Paso cero:
+No descargues la aplicación y ocúpala de forma online, aprovechando las actualizaciones que pueda tener en el futuro simplemente ingresando en el siguiente [link](https://boutaudn.github.io/scl-2018-05-bc-core-am/).
+
 
 ## Acerca de la aplicación y el diseño
 
-El diseño de la plataforma está inspirada en un estilo simple y minimalista para hacer más facil su uso y lectura para el usuario.
+El diseño de la plataforma está inspirada en un estilo simple y minimalista para hacer más fácil su uso y lectura para el usuario.
 La aplicación es capaz de cifrar palabras sin incluir caracteres como espacios, la letra ñ o acentos y comillas, etc. y devolviendo el mensaje sólo en mayúsculas.
 
 **Próximamente aceptaremos espacios y acentos. Estamos trabajando para usted**
