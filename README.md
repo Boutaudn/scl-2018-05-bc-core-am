@@ -56,4 +56,4 @@ No descargues la aplicación y ocúpala de forma online, aprovechando las actual
 El diseño de la plataforma está inspirada en un estilo simple y minimalista para hacer más fácil su uso y lectura para el usuario.
 La aplicación es capaz de cifrar palabras sin incluir caracteres como espacios, la letra ñ o acentos y comillas, etc. y devolviendo el mensaje sólo en mayúsculas.
 
-**Próximamente aceptaremos espacios y acentos. Estamos trabajando para usted**
+**Próximamente aceptaremos espacios y acentos. Estamos trabajando para usted.**
