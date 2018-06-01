@@ -2,12 +2,21 @@
 h1 {
     color: aliceblue;
     text-align: center;
-    font-family: monospace;
-    font-size: 500%;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 5em;
+    border-style: ridge;
+    border-color: #142F54;
+}
+
+h4 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 2em;
+    margin-bottom: 5%;
 }
 
 body {
-    text-align: center;
     background-image: url(img/stars-3840x2160-galaxy-4k-6362.jpg)
 }
 
@@ -15,21 +24,28 @@ body {
     height: 50px;
     width: 45%;
     margin: 5px;
-    display: inline-block;
     align-content: center;
 }
 
 .btn {
-    display: inline-block;
-    align-content: center;
+    padding: 1%;
+    border-radius: 7px;
+    font-size: 15px;
+    margin: 2% 2% 6% 2%;
+    background-color: antiquewhite;
+
 }
+.btn:focus{
+    background-color: #142F54;
+    color: white;
+  }
 
 main {
     text-align: center;
     color: antiquewhite;
 }
 
-.buttons {
-    align-content: center;
-    display: inline;
+p {
+    border-style: dotted;
+    padding: 5%;
 }

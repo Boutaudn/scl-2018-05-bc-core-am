@@ -3,6 +3,7 @@
   <head>
     <link rel="icon" href="img/favicon.ico" />
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -10,36 +11,37 @@
   <!-- Aquí va mi título -->
     <header>
       <h1>CIFRADO CESAR</h1>
+      <h4>Ingresa una palabra y selecciona el numero de espacios para obtener cifrado y descifrado</h4>
     </header>
     <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
   <!-- Aquí es donde ocurre la magia (?) -->
     <main>
-      <section>
-        <div class="caja" id="texto_uno">
-          <textarea id="txt_uno" rows="20" cols="30" placeholder="Ingresa texto a cifrar"></textarea>
+      <secction class= "cifrado">
+        <div class="caja">
+          <textarea id="txt_uno" rows="15" cols="30" placeholder="Ingresa palabra a cifrar"></textarea>
         </div>
         <div class="inputBtn">
           <input id="espacios_cif" type="number" min="1">
-        <button class="btn" id="button_uno">Magia</button>
+        <button class="btn" id="button_uno">Cifrar</button>
         </div> 
-        <div class="caja" id="texto_dos">
+        <div class="parrafo" id="texto_cifrado">
           <p id="txt_cifrado"></p>
         </div>
-      </section>
-      <section>
+      </secction>
+      <section class= "descifrado">
       <div class="caja">
-        <textarea id="txt_dos" rows="20" cols="30" placeholder="Ingresa texto a descifrar"></textarea>
+        <textarea id="txt_dos" rows="15" cols="30" placeholder="Ingresa palabra a descifrar"></textarea>
       </div>
       <div class="inputBtn">
         <input id="espacios_des" type="number" min="1">
-        <button class="btn" id="button_dos">Magia</button>
+        <button class="btn" id="button_dos">Descifrar</button>
       </div>
-      <div class="caja">
+      <div class="parrafo" id="texto_descifrado">
           <p id="txt_descifrado"></p>
       </div>
-      </section>
+    </section>
     </main>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
