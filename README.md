@@ -32,7 +32,7 @@ Para usar esta maravillosa plataforma no necesitas ser un experto, sólo seguir 
 Entra al siguiente [link de mi github](https://github.com/Boutaud/scl-2018-05-bc-core-am) 
 
 ### Paso dos:
-Vas a la izquierda de la página al boton verde llamado **clone or download** para descargar el proyecto (o puedes hacerlo directamente usando este link [clone or download] (https://github.com/Boutaudn/scl-2018-05-bc-core-am/archive/master.zip) ) 
+Vas a la izquierda de la página al boton verde llamado **clone or download** para descargar el proyecto (o puedes hacerlo directamente usando este link [CLONE OR DOWNLOAD](https://github.com/Boutaudn/scl-2018-05-bc-core-am/archive/master.zip) ) 
 
 ### Paso tres:
 Ya con el proyecto en tu computador, entras a la carpeta **scl-2018-05-bc-core-am**, luego a **src**, abres el archivo **index.html** con tu navegador favorito y listo, ya tienes la pagina de cifrado cesar.
