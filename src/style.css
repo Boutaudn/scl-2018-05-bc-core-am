@@ -17,7 +17,8 @@ h4 {
 }
 
 body {
-    background-image: url(img/stars-3840x2160-galaxy-4k-6362.jpg)
+    background-image: url(img/stars-3840x2160-galaxy-4k-6362.jpg);
+    background-color: #042037;
 }
 
 .caja {
@@ -60,9 +61,6 @@ p {
 
 #parrafo {
     display: inline;
-}
-
-.espacios_cif {
 }
 
 #cifrado {
