@@ -39,13 +39,13 @@ Descargar la aplicación y tenerla en tu propio computador te puede servir para 
 Para hacer esto no necesitas ser un experto, sólo seguir las siguientes instrucciones:
 
 ### Paso uno:
-Entra al siguiente [link de mi github](https://github.com/Boutaudn/scl-2018-05-bc-core-am) 
+Entra al repositorio donde se encuentra el proyecto mediante este [link](https://github.com/Boutaudn/scl-2018-05-bc-core-am)
 
 ### Paso dos:
-Vas a la izquierda de la página al botón verde llamado **clone or download** para descargar el proyecto (o puedes hacerlo directamente usando este link [CLONE OR DOWNLOAD](https://github.com/Boutaudn/scl-2018-05-bc-core-am/archive/master.zip) ) 
+Dirígete a  a la esquina superior derecha de la página y has click en el botón verde llamado **clone or download** para descargar el proyecto en ZIP (o puedes hacerlo directamente usando este link [CLONE OR DOWNLOAD](https://github.com/Boutaudn/scl-2018-05-bc-core-am/archive/master.zip) ) 
 
 ### Paso tres:
-Ya con el proyecto en tu computador, entras a la carpeta **scl-2018-05-bc-core-am**, luego a **src**, abres el archivo **index.html** con tu navegador favorito y listo, ya tienes la pagina de cifrado cesar.
+Ya con el proyecto en tu computador, lo descomprimes y entras a la carpeta **scl-2018-05-bc-core-am**, luego a **src**, abres el archivo **index.html** con tu navegador favorito y listo, ya tienes la pagina de cifrado cesar.
 
 ### Paso cero:
 No descargues la aplicación y ocúpala de forma online, aprovechando las actualizaciones que pueda tener en el futuro simplemente ingresando en el siguiente [link](https://boutaudn.github.io/scl-2018-05-bc-core-am/).
