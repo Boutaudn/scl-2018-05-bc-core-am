@@ -35,14 +35,14 @@ Para descifrar tienes que ingresar tu texto previamente cifrado en la segunda ca
 
 ## Descargar e instalar
 
-Descargar la aplicación y tenerla en tu propio computador te puede servir para modificarla a tu gusto o para usarla aún cuando te encuentres sin internet. 
-Para hacer esto no necesitas ser un experto, sólo seguir las siguientes instrucciones:
+Descargar la aplicación y tenerla en tu computador te puede servir para modificarla a tu gusto o para usarla aún cuando te encuentres sin internet. 
+Para hacer esto no necesitas ser un experto, sólo seguir los siguientes pasos:
 
 ### Paso uno:
-Entra al repositorio donde se encuentra el proyecto mediante este [link](https://github.com/Boutaudn/scl-2018-05-bc-core-am)
+Entra al repositorio donde se encuentra el proyecto mediante este [link](https://github.com/Boutaudn/scl-2018-05-bc-core-am).
 
 ### Paso dos:
-Dirígete a  a la esquina superior derecha de la página y has click en el botón verde llamado **clone or download** para descargar el proyecto en ZIP (o puedes hacerlo directamente usando este link [CLONE OR DOWNLOAD](https://github.com/Boutaudn/scl-2018-05-bc-core-am/archive/master.zip) ) 
+Dirígete a  a la esquina superior derecha de la página y has click en el botón verde llamado **clone or download** para descargar el proyecto en ZIP (o puedes hacerlo directamente usando este link [CLONE OR DOWNLOAD](https://github.com/Boutaudn/scl-2018-05-bc-core-am/archive/master.zip)) 
 
 ### Paso tres:
 Ya con el proyecto en tu computador, lo descomprimes y entras a la carpeta **scl-2018-05-bc-core-am**, luego a **src**, abres el archivo **index.html** con tu navegador favorito y listo, ya tienes la pagina de cifrado cesar.
