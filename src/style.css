@@ -25,6 +25,8 @@ body {
     width: 45%;
     margin: 5px;
     align-content: center;
+    display: block;
+    font-size: 2em;
 }
 
 .btn {
@@ -33,6 +35,7 @@ body {
     font-size: 15px;
     margin: 2% 2% 6% 2%;
     background-color: antiquewhite;
+    display: inline-block;
 
 }
 .btn:focus{
@@ -47,5 +50,14 @@ main {
 
 p {
     border-style: dotted;
-    padding: 5%;
+    padding: 4%;
+    display: block;
+    font-size: 25px;
+    margin: 1%;
+    border-radius: 7px;
+}
+
+
+.espacios_cif {
+    display: inline-block;
 }
